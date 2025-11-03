@@ -1,0 +1,21 @@
+{
+  //"coc.preferences.formatOnSave": true,
+  "volar.enable": true,
+  //"eslint.autoFixOnSave": true,
+  "coc.preferences.hover.enable": true,
+  "coc.preferences.hover.target": "float",
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    },
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  }
+}
